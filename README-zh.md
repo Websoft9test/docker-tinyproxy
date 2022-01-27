@@ -65,13 +65,13 @@ sudo systemctl start docker
 
 #### 安装 tinyproxy 
 
-直接运行下面的命令快速安装应用。如果你熟悉 Docker，建议先修改 [docker-compose](docker-compose-production.yml) 文件以满足自己的需求
+直接运行下面的命令快速安装应用。如果你熟悉 Docker，建议先修改 [docker-compose](docker-compose.yml) 文件以满足自己的需求
 
 ```
 git clone --depth=1 https://github.com/Websoft9/docker-tinyproxy
 cd docker-tinyproxy
 # 必须设置IP白名单，且只有白名单中的服务器方可使用代理服务  
-sudo docker-compose -f docker-compose.yml --env-file .env up -d
+sudo docker-compose up -d
 ```
 
 ### 常见问题
