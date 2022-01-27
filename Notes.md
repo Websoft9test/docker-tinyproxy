@@ -1,6 +1,3 @@
-## About
+## Tinyproxy
 
-This repository is forked from ONLYOFFICE/Docker-CommunityServer, we have the following modifications are provided
-
-* replace README.md
-* add README-zh.md, CHANGELOG.md, Note.md, License.md, docker-compose.yml,.env, src, .github folder
+只需修改 .env 文件中的 IP 地址即可使用
